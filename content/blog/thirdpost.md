@@ -1,45 +1,22 @@
 ---
-title: This is my third post.
-description: This is a post on My Blog about win-win survival strategies.
-date: 2018-08-24
+title: This is my third week at coding bootcamp.
+description: Coding Bootcamp
+date: 2024-01-22
 tags:
-  - second tag
-  - posts with two tags
+  - Second week of bootcamp
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-## Code
+We learnt about bootstrap framework and advantages of it.
 
-### Styled (with Syntax)
+-Bootstraps Course work:
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+1. **Pick a topic/subject close to your heart, or a business local to you.**
+2. **We're going to design a website based on that topic.**
+3. **Take a look around rival businesses or similar sites based on your topic. Can you replicate what they are doing using HTML and Bootstrap CSS?**
+4. **Feel free to add your own CSS, but the main bulk of the work should be done using Bootstrap**
+5. **Suggestions**
 
-```js
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log('Test');
-```
-
-### Unstyled
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-```
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log('Test');
-```
-
-## Section Header
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+- **Carousel Hero section**
+- **Accordion for info**
+- **Cards for skills section**
+- **Use a contact form - we’ll show you how to get submissions from it later in the course!**

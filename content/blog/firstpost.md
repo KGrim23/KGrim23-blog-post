@@ -1,26 +1,27 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: This is my first week at coding bootcamp.
+description: Coding Bootcamp
+date: 2024-01-11
 tags:
-  - another tag
+  - Second week of bootcamp
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+# Web Dev Course Work
 
-## Section Header
+-HTML & CSS Homepage (portfolio)
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+-Learn Git and Github desktop
 
-```diff-js
- // this is a command
- function myCommand() {
-+  let counter = 0;
--  let counter = 1;
-   counter++;
- }
+# Portfolio Notes
 
- // Test with a line break above this line.
- console.log('Test');
-```
+## **What Should Your Online Portfolio Include?**
+
+There are seven elements you absolutely need to include in your web developer portfolio site:
+
+1. Homepage
+2. Your skills
+3. Your projects
+4. About page
+5. Contact information
+6. Links to your projects on other platforms
+7. Links to your resume and social media profiles
