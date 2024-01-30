@@ -1,7 +1,7 @@
 ---
 title: This is my fourth week at coding bootcamp.
 description: Coding Bootcamp
-date: 2024-01-29
+date: 2018-05-01
 tags:
   - Third week of bootcamp
 ---
@@ -12,4 +12,6 @@ It was a difficult week as the learning has a bot of a step from the previous le
 - Static Site Generator Course work:
 
 We use 11ty as a dependencies and also use Node.js as a package manager.
-This site was born due to the SSG course work.
+This site was born sute
+
+{% image "./hero-image.svg", "picture of desktop computer in svg" %}

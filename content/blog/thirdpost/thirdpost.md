@@ -20,3 +20,7 @@ We learnt about bootstrap framework and advantages of it.
 - **Accordion for info**
 - **Cards for skills section**
 - **Use a contact form - we’ll show you how to get submissions from it later in the course!**
+
+<a href="https://kgrim23.github.io/Portfolio-BS-version-2/">
+{% image "./BS portfolio.png", "picture of desktop computer in svg" %}
+</a>

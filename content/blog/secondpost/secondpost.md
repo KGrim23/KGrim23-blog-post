@@ -14,3 +14,7 @@ The website need to in Semantic Html and we also did the lighthouse audit for th
 
 -Semantic Session - Table Format on github
 https://github.com/thecodersguilduk/semantic-html-challenge?tab=readme-ov-file#semantic-html-challenge
+
+<a href="https://kgrim23.github.io/Semantic-html-and-css/">
+{% image "./Semantic html.png", "picture of desktop computer in svg" %}
+</a>
