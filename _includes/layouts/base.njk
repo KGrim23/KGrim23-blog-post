@@ -5,47 +5,52 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
+		<style>
+		body{
+			margin: 10px 100px;
+			border-sizing: border-box;
+		}
 
+		main{
+			height: 100vh;
+			margin-top: 100px;
+			line-height: 2;
+		}
 
-		{#- Atom and JSON feeds included by default #}
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+		nav{
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			gap: 20px;
+			justify-content: space-between;
+			align-items: center;
+		}
 
-		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
-		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+		footer{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: auto;
+		}
 
-		{#-
-		CSS bundles are provided via the `eleventy-plugin-bundle` plugin:
-		1. You can add to them using `{% css %}`
-		2. You can get from them using `{% getBundle "css" %}` or `{% getBundleFileUrl "css" %}`
-		3. You can do the same for JS: {% js %}{% endjs %} and <script>{% getBundle "js" %}</script>
-		4. Learn more: https://github.com/11ty/eleventy-plugin-bundle
-		#}
-
-		{#- Add an arbitrary string to the bundle #}
-		{%- css %}* { box-sizing: border-box; }{% endcss %}
-		{#- Add the contents of a file to the bundle #}
-		{%- css %}{% include "public/css/index.css" %}{% endcss %}
-		{#- Or add from node_modules #}
-		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
-
-		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
-		<style>{% getBundle "css" %}</style>
-		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
-		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
+		ul{
+			list-style-type:none; display:inline-flex; flex-direction:row; gap:20px;
+		}
+		</style>
+	
 	</head>
-<body>
+<body style="background-color: #161A30; color:#B6BBC4; font-family:poppins; font-size: 1rem">
 
 	<header>
 		<nav>
-			<a href="#" style="text-decoration: none">
-				Kalaya Grimshaw
-				
+			<a href="#" style="text-decoration: none; color:#B6BBC4">
+				{KGrim23}
 			</a>
-			<ul style="list-style-type:none; display:inline-flex; flex-direction:row; justify-content:flex-end; gap:10px">
-				<li>Home</li>
-				<li>Blogs</li>
-				<li>Contact</li>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Blogs</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -54,7 +59,7 @@
 		{{ content | safe }}
 	</main>
 
-	<footer style="text-align:center; margin-top:auto;"> 
+	<footer> 
 	&copy; 2024 Kalaya Grimshaw
 	</footer>
 

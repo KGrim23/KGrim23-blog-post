@@ -2,8 +2,7 @@
 title: This is my third week at coding bootcamp.
 description: Coding Bootcamp
 date: 2024-01-22
-tags:
-  - Second week of bootcamp
+
 ---
 
 We learnt about bootstrap framework and advantages of it.

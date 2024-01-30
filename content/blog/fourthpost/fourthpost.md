@@ -2,8 +2,7 @@
 title: This is my fourth week at coding bootcamp.
 description: Coding Bootcamp
 date: 2018-05-01
-tags:
-  - Third week of bootcamp
+
 ---
 
 We learnt about SSG (static site generator) also it's advantages and disadvantages of it.

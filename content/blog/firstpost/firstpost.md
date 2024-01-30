@@ -2,8 +2,7 @@
 title: This is my first week at coding bootcamp.
 description: Coding Bootcamp
 date: 2024-01-11
-tags:
-  - Second week of bootcamp
+
 ---
 
 # Web Dev Course Work
