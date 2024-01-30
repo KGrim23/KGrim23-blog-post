@@ -20,7 +20,7 @@ numberOfLatestPostsToShow: 5
 
 {# List every content page in the project #}
 {#
-<ul style="">
+<ul>
 	{%- for entry in collections.all %}
 	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
 	{%- endfor %}
