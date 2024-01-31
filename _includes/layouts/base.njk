@@ -1,71 +1,27 @@
 <!doctype html>
-<html lang="{{ metadata.language }}">
-<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{ title or metadata.title }}</title>
-		<meta name="description" content="{{ description or metadata.description }}">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<style>
-			body{
-				margin: 10px 50px;
-				border-sizing: border-box;
-				min-height: 100vh;
-				display-flex;
-				flex-direction: column;
-			}
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-			main{
-				margin-top: 70px;
-				line-height: 2;
-				min-height: 100vh;
-			}
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    {{ content | safe }}
 
-			header{
-				margin-top: 30px;
-			}
+    <!-- Optional JavaScript; choose one of the two! -->
 
-			nav{
-				display: flex;
-				flex-direction: row;
-				width: 100%;
-				gap: 20px;
-				justify-content: space-between;
-				align-items: center;
-			}
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-			footer{
-				margin-top: auto;
-				text-align: center;
-			}
-
-			ul{
-				list-style-type:none; display:inline-flex; flex-direction:row; gap:20px;
-			}
-		</style>
-	
-</head>
-<body style="background-color: #161A30; color:#B6BBC4; font-family:poppins; font-size: 1rem">
-	<header>
-		<nav>	
-			<a href="/">
-				<img src="/images/avator.png" alt="avator logo" width="70" style="align-items:center; justify-content:center; border-radius:50%; border: none;">
-			</a>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/blog">Blogs</a></li>
-				<li><a href="/contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-
-<main id="skip">
-		{{ content | safe }}
-</main>
-
-<footer> 
-	&copy; 2024 Kalaya Grimshaw | All right reserved
-</footer>
-
-</body>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
