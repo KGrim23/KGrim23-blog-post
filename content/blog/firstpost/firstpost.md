@@ -26,9 +26,16 @@ There are seven elements you absolutely need to include in your web developer po
 7. Links to your resume and social media profiles
 
 <a href="https://kgrim23.github.io/W-News-Home-Page/">
-{% image "./News Home Page.png", "picture of desktop computer in svg" %}
+{% image "./News Home Page.png", "project scrren shot" %}
 </a>
 
-
+<style>
+    img {
+        display: block;
+        width: 40%;
+        height: 40%;
+        margin: auto;
+		}
+</style>
 
 

@@ -14,5 +14,14 @@ The website need to in Semantic Html and we also did the lighthouse audit for th
 https://github.com/thecodersguilduk/semantic-html-challenge?tab=readme-ov-file#semantic-html-challenge
 
 <a href="https://kgrim23.github.io/Semantic-html-and-css/">
-{% image "./Semantic html.png", "picture of desktop computer in svg" %}
+{% image "./Semantic html.png", "project img" %}
 </a>
+
+<style>
+    img {
+        display: block;
+        width: 40%;
+        height: 40%;
+        margin: auto;
+		}
+</style>

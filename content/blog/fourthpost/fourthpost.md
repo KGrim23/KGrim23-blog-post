@@ -13,4 +13,17 @@ It was a difficult week as the learning has a bot of a step from the previous le
 We use 11ty as a dependencies and also use Node.js as a package manager.
 This site was born sute
 
-{% image "./hero-image.svg", "picture of desktop computer in svg" %}
+<a href="https://kgrim23.github.io/Semantic-html-and-css/">
+{% image "./hero-image.svg", "project img" %}
+</a>
+
+<style>
+    img {
+        display: block;
+        width: 40%;
+        height: 40%;
+        margin: auto;
+		}
+</style>
+
+
