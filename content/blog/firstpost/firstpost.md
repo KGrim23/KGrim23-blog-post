@@ -5,15 +5,15 @@ date: 2024-01-11
 
 ---
 
-# Web Dev Course Work
+<h4>Web Dev Course Work:</h4>
 
 -HTML & CSS Homepage (portfolio)
 
 -Learn Git and Github desktop
 
-# Portfolio Notes
+Portfolio Notes:
 
-## **What Should Your Online Portfolio Include?**
+What Should Your Online Portfolio Include?
 
 There are seven elements you absolutely need to include in your web developer portfolio site:
 
@@ -26,7 +26,7 @@ There are seven elements you absolutely need to include in your web developer po
 7. Links to your resume and social media profiles
 
 <a href="https://kgrim23.github.io/W-News-Home-Page/">
-{% image "./News Home Page.png", "project scrren shot" %}
+{% image "./BS Portfolio V2.png", "project scrren shot" %}
 </a>
 
 <style>
